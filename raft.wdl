@@ -12,4 +12,9 @@ task raft {
 	output {
 		File result="file2.txt"
 	}
+
+}
+
+workflow raft_workflow {
+	call raft
 }
